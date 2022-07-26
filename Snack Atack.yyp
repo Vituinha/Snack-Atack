@@ -1,9 +1,9 @@
 {
   "resources": [
+    {"id":{"name":"Tiro_img","path":"sprites/Tiro_img/Tiro_img.yy",},"order":5,},
     {"id":{"name":"Parede_img","path":"sprites/Parede_img/Parede_img.yy",},"order":1,},
-    {"id":{"name":"HP_vazio","path":"sprites/HP_vazio/HP_vazio.yy",},"order":3,},
-    {"id":{"name":"HP","path":"sprites/HP/HP.yy",},"order":2,},
     {"id":{"name":"Pao","path":"objects/Pao/Pao.yy",},"order":2,},
+    {"id":{"name":"Tiro","path":"objects/Tiro/Tiro.yy",},"order":4,},
     {"id":{"name":"Arma_img","path":"sprites/Arma_img/Arma_img.yy",},"order":4,},
     {"id":{"name":"Pao_img","path":"sprites/Pao_img/Pao_img.yy",},"order":0,},
     {"id":{"name":"Arma","path":"objects/Arma/Arma.yy",},"order":3,},

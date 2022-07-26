@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Arma_img",
-    "path": "sprites/Arma_img/Arma_img.yy",
+    "name": "Tiro_img",
+    "path": "sprites/Tiro_img/Tiro_img.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,10 +21,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -32,7 +29,7 @@
     "path": "folders/Objetos.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Arma",
+  "name": "Tiro",
   "tags": [],
   "resourceType": "GMObject",
 }

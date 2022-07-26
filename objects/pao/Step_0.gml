@@ -14,4 +14,20 @@ x+= (direita - esquerda) * velocidade;
 y+= (baixo - cima) * velocidade;
 
 //Angulo da Imagem Apontando Para o Mouse
-image_angle = point_direction(x,y,mouse_x,mouse_y)
+image_angle = point_direction(x,y,mouse_x,mouse_y);
+
+if(keyboard_check_pressed(ord("C"))){
+	hp -= 10;
+}
+
+if(keyboard_check_pressed(ord("X"))){
+	hp += 10;
+}
+
+if(hp < 0){
+	hp = 0;
+}
+
+if(hp > 50){
+	hp = 50;
+}

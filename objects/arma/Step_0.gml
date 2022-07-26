@@ -12,3 +12,11 @@ image_angle = Pao.image_angle;
 
 //Angulo da Imagem Apontando Para o Mouse
 image_angle=point_direction(x,y,mouse_x,mouse_y);
+
+if (mouse_check_button_pressed(mb_left)){
+	var bullet = instance_create_depth(x,y,1,Tiro);
+	
+	bullet.speed = 8;
+	bullet.direction = point_direction(x,y,mouse_x, mouse_y);
+	bullet.image_angle = bullet.direction;
+}

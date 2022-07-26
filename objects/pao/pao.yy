@@ -1,16 +1,15 @@
 {
-  "name": "Pao",
   "spriteId": {
     "name": "Pao_img",
     "path": "sprites/Pao_img/Pao_img.yy",
   },
-  "spriteMaskId": null,
-  "visible": true,
   "solid": false,
-  "persistent": false,
-  "physicsObject": false,
+  "visible": true,
   "managed": true,
+  "spriteMaskId": null,
+  "persistent": false,
   "parentObjectId": null,
+  "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
   "physicsGroup": 1,
@@ -35,6 +34,7 @@
     "path": "folders/Objetos.yy",
   },
   "resourceVersion": "1.0",
+  "name": "Pao",
   "tags": [],
   "resourceType": "GMObject",
 }
